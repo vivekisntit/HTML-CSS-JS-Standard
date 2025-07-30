@@ -1,0 +1,64 @@
+body {
+  padding: 25px;
+  background-color: rgb(116, 23, 23);
+  color: blanchedalmond;
+}
+header {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* -------------------------111111--------------------------- */
+
+.form {
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+}
+.lesson {
+  font-size: 20px;
+}
+
+/* -------------------------1111111------------------------- */
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  font-family: monospace;
+  line-height: 1.5em;
+  word-spacing: 0.2em;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(255, 234, 0);
+}
+a:hover {
+  color: rgb(209, 123, 76);
+  opacity: 0.5;
+}
+a:focus {
+  color: blueviolet;
+}
+ul li:nth-child(none) {
+  color: rgb(194, 73, 221);
+}
+ul,
+ol {
+  /* list-style-image: url("../smlchk.jpg"); */
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: center;
+  line-height: 2em;
+}
+::marker {
+  font-family: fantasy;
+  font-size: 1em;
+  content: "Must >>     ";
+  color: rgb(24, 239, 31);
+}

@@ -1,0 +1,36 @@
+body {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(118, 181, 160);
+}
+div {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+.block {
+  width: 40vw;
+  height: 35vw;
+  padding: 1rem;
+  border: 7px solid #9300b8;
+  outline: 7px solid green;
+  outline-offset: -20px;
+  /* margin: 1rem; ----------  GIVES MARGIN BUT LOREM IS SLIGHTLY ABOVE DIV BOX*/
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: #9300b8;
+}
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+.right {
+  float: right;
+  margin-right: 1rem;
+}
+.bob,
+.rob {
+  background-color: rgb(132, 132, 203);
+  padding: 0.9rem;
+  border: 7px solid black;
+  display: flow-root;
+}

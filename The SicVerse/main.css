@@ -1,0 +1,139 @@
+html 
+{
+  font-size: 19px;
+}
+body, option
+{
+  background-color:rgb(21, 29, 43);
+  /*background-image: url('univelogo.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;*/
+  color: rgb(120, 216, 149);
+}
+a, option, select
+{
+  color:rgb(120, 194, 216)
+}
+a:hover, .down-content a:hover
+{
+  color:rgb(68, 116, 206)
+}
+summary
+{
+   color:blanchedalmond 
+}
+mark
+{
+    color:azure
+}
+table, tr, th, td, caption
+{
+    border: 2px solid #eee;
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+select, .down a
+{
+  width:100%
+}
+table
+{
+    table-layout:fixed;
+    width: 100%;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+td
+{
+    text-align:center;
+}
+select
+{
+  color:rgb(21, 29, 43)
+}
+h1, .b1s
+{
+  text-align: center; 
+}
+/* dropdown list */
+.down
+{
+  display: inline-block;
+  position: relative;
+}
+.down-content
+{
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.down:hover .down-content
+{
+  display: block;
+}
+.down-content a
+{
+  display: block;
+  color:rgb(120, 194, 216);
+  padding: 5px;
+}
+.flex
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  box-shadow: 7px 12px 10px 7px rgba(0,0,0,0.4);
+}
+.b1
+{
+  width: 162px;
+  height: 162px;  
+  float: left ;
+  margin: 50px; 
+  background: rgb(45, 56, 73); 
+  box-shadow: 0px 10px 10px 0px rgba(0, 7, 14, 0.973);
+}
+.ts1
+{
+  width: 430px;
+  margin: 7px;
+  float: left;
+}
+.ts2
+{
+  width: 430px;
+  margin: 7px;
+  float: left;
+}
+.ts3
+{
+  width: 430px;
+  margin: 7px;
+  float: left;
+}
+.s1
+{
+  width: 150px;
+  margin: 5px;
+  float: left;
+}
+.s2
+{
+  width: 150px;
+  margin: 5px;
+  float: left;
+}
+.s3
+{
+  width: 150px;
+  margin: px;
+  float: left;
+}
+summary
+{
+  font-size: 32px;
+}

@@ -1,0 +1,17 @@
+body {
+  font-size: 22px;
+  background-color: #ffebcd;
+  color: #871900;
+}
+p {
+  color: #2514a6cf;
+}
+.art {
+  font-style: italic;
+}
+.para {
+  font-style: normal;
+}
+h2 {
+  font-style: normal;
+}

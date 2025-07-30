@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Vivek" />
+    <meta name="Discription" content="Info" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="icon" href="lcr.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+      <hr />
+      <hr />
+      <h2>Credentials</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolores
+        ullam accusamus veniam nostrum placeat suscipit eaque, eligendi quaerat
+        hic porro repudiandae tenetur quasi pariatur totam ex minima! Maxime,
+        dolore?
+      </p>
+    </header>
+    <main>
+      <h2>Wanna reach out?</h2>
+      <ul>
+        <li>
+          <p>Send an <a href="mailto:abcpiwate@cookiemail.com">e-mail</a>.</p>
+        </li>
+        <li>
+          <p>Make a <a href="tel:+9783272397239"> Call</a>.</p>
+        </li>
+        <li>
+          <p>
+            Search my net worth on
+            <a href="http://www.google.com/" target="_blank">Google</a>.
+          </p>
+        </li>
+      </ul>
+      <h2>Look at this badass logo</h2>
+      <img
+        src="lcr.png"
+        alt="pfp"
+        title="cool innit"
+        width="300"
+        height="300"
+      />
+      <hr />
+      <h4>Wanna download the cool pfp?</h4>
+      <p>I <a href="lcr.png" download>got</a> you.</p>
+      <hr />
+    </main>
+    <footer>
+      <section id="tab">
+        <h4>Look at this cool table yo</h4>
+        <table>
+          <caption>
+            Der Einzige Ausweg
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Financial TODO</th>
+              <th scope="col">Section</th>
+              <th scope="col">Date to be Completed by</th>
+              <th scope="col">Progress</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2" scope="row">Rich Dad Poor Dad</th>
+              <td>audiobook</td>
+              <td>2/05/23</td>
+              <td>76%</td>
+            </tr>
+            <tr>
+              <td>book</td>
+              <td>-</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th rowspan="2" scope="row">The Intelligent Investor</th>
+              <td>audiobook</td>
+              <td>10/05/23</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td>book</td>
+              <td>7 days</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th rowspan="3" scope="row">Courses</th>
+              <td>HTML,CSS,JS</td>
+              <td>15 days</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td>SEO, SCO</td>
+              <td>15 days</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td>Marketing, Sales, Stocks</td>
+              <td>30 days</td>
+              <td>0%</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">Und denken Sie daran, die Matrix hat Sie</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <hr />
+      <section id="stash">
+        <h4>Wanna reach out for some stash deals real quick?</h4>
+        <p>I got ya; you get me the stack and I get ya the stash</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Hit the Joint fam</legend>
+            <ul>
+              <li>
+                <label for="firstname">First Name:</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="Marshall"
+                  autocomplete="on"
+                  required
+                />
+              </li>
+              <li>
+                <label for="lastname">Last Name:</label>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                  placeholder="Mathers"
+                  autocomplete="on"
+                  required
+                />
+              </li>
+              <li>
+                <label for="pass">Password:</label>
+                <input
+                  type="password"
+                  name="pass"
+                  id="pass"
+                  placeholder="Line is tapped bro, be carefull"
+                  autocomplete="on"
+                  required
+                />
+              </li>
+              <li>
+                <label for="phone">Tel:</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="878-545-424"
+                  pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                  required
+                />
+              </li>
+              <li>
+                <label for="born">Date of birth</label>
+                <input
+                  type="number"
+                  name="born"
+                  id="born"
+                  min="1920"
+                  max="2023"
+                  step="1"
+                  placeholder="1920"
+                  required
+                />
+              </li>
+              <li>
+                <!--<label for="drug">Make your choice wisely</label>
+              <select name="drug" id="drug">
+                <optgroup label="Ferrari">
+                  <option value="blue">Blue Pill</option>
+                  <option value="weed">Weed</option>
+                 /optgroup>
+                < <option value="marijuana">Marijuana</option>
+                <optgroup label="Boeing">
+                  <option value="benz">Benz</option>
+                  <option value="coke">Coke</option>
+                </optgroup>
+                <optgroup label="Apollo">
+                  <option value="morphine">Morphine</option>
+                  <option value="heroine">Heroine</option>
+                  <option value="red">Red Pill</option>
+                </optgroup>
+              </select>-->
+                <label for="drug">Make your choice wisely</label>
+                <input type="text" name="drug" id="drug" list="order-list" />
+                <datalist id="order-list">
+                  <option value="blue"></option>
+                  <option value="weed"></option>
+                  <option value="marijuana"></option>
+                  <option value="benz"></option>
+                  <option value="coke"></option>
+                  <option value="morphine"></option>
+                  <option value="heroine"></option>
+                  <option value="red"></option>
+                </datalist>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Mode of transaction</legend>
+            <p>
+              <input type="radio" name="Mode" id="cash" />
+              <label for="cash">Cash</label>
+            </p>
+            <p>
+              <input type="radio" name="Mode" id="card" />
+              <label for="card">Card</label>
+            </p>
+            <p>
+              <input type="radio" name="Mode" id="trade" />
+              <label for="trade">Trade</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Which of them do you like</legend>
+            <p>
+              <input type="checkbox" name="choice" id="pac" value="pac" />
+              <label for="pac">2Pac</label>
+            </p>
+            <p>
+              <input type="checkbox" name="choice" id="biggie" value="biggie" />
+              <label for="biggie">Biggie</label>
+            </p>
+            <p>
+              <input type="checkbox" name="choice" id="eminem" value="eminem" />
+              <label for="eminem">Eminem</label>
+            </p>
+            <p>
+              <input type="checkbox" name="choice" id="nf" value="nf" />
+              <label for="nf">NF</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Lokation</legend>
+            <label for="location">Text the location yo</label>
+            <br />
+            <textarea
+              name="location"
+              id="location"
+              cols="30"
+              rows="10"
+              placeholder="Look out for the cops and don't front!"
+            >
+            </textarea>
+          </fieldset>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+      <hr />
+      <h4><a href="#02_Text_Basics.html">Back home</a></h4>
+    </footer>
+  </body>
+</html>

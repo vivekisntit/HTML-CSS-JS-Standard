@@ -1,0 +1,21 @@
+body {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+h1 {
+  background-color: rgb(188, 93, 93);
+  /* margin: 2em; */
+}
+main {
+  background-color: aquamarine;
+  /* margin: 1em;
+  padding-top: 1rem;
+  padding-bottom: 2rem; */
+}
+p {
+  background-color: rgb(149, 119, 177);
+  /* margin: 2em;
+  padding: 4em; */
+}
